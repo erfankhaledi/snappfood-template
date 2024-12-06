@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="icon" href="./assets/images/favicon-32x32.png">
+    <title> اسنپ فود | سفارش آنلاین غذا از تمامی رستوران ها و فست فودها</title>
+</head>
+<main class="padding-2-rem">
+    <!-- START Header Section -->
+    <section class="header conntainer-fluid mb-5">
+        <!-- Start Banner Navbar -->
+        <div class="d-flex justify-content-between align-items-center header-navbar col-11">
+            <!-- LOGO -->
+            <div class="logo-header">
+                <img src="./assets/images/logo.PNG" alt="logo" />
+            </div>
+            <!-- LOGIN / REGISTER -->
+            <div class="register-login justify-content-end align-items-center ">
+                <div class="register d-flex justify-content-end align-items-center">
+                    <a>
+                        <!-- <i class="fa-solid fa-store fs-5"></i> -->
+                        <svg width="24" height="26" viewBox="0 0 24 26" fill="#3A3D42" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M3.10557 3.22149C3.27497 2.8827 3.62123 2.6687 4 2.6687H19.9987C20.3773 2.6687 20.7235 2.88259 20.893 3.22125L22.8943 7.22124C22.9638 7.36016 23 7.51336 23 7.6687V8.6687C23 9.62235 22.6186 10.4869 22 11.1182V21.6687C22 22.221 21.5523 22.6687 21 22.6687H15C14.4477 22.6687 14 22.221 14 21.6687V17.1687C14 16.0641 13.1046 15.1687 12 15.1687C10.8954 15.1687 10 16.0641 10 17.1687V21.6687C10 22.221 9.55229 22.6687 9 22.6687H3C2.44772 22.6687 2 22.221 2 21.6687V11.1182C1.38141 10.4869 1 9.62235 1 8.6687V7.6687C1 7.51345 1.03615 7.36034 1.10557 7.22149L3.10557 3.22149ZM4 12.1333V20.6687H8V17.1687C8 14.9596 9.79086 13.1687 12 13.1687C14.2091 13.1687 16 14.9596 16 17.1687V20.6687H20V12.1333C19.8367 12.1566 19.6698 12.1687 19.5 12.1687C18.5207 12.1687 17.6353 11.7665 17 11.1182C16.3647 11.7665 15.4793 12.1687 14.5 12.1687C13.5207 12.1687 12.6353 11.7665 12 11.1182C11.3647 11.7665 10.4793 12.1687 9.5 12.1687C8.52065 12.1687 7.63526 11.7665 7 11.1182C6.36474 11.7665 5.47935 12.1687 4.5 12.1687C4.33024 12.1687 4.1633 12.1566 4 12.1333ZM21 7.90491V8.6687C21 9.49713 20.3284 10.1687 19.5 10.1687C18.6716 10.1687 18 9.49713 18 8.6687C18 8.11642 17.5523 7.6687 17 7.6687C16.4477 7.6687 16 8.11642 16 8.6687C16 9.49713 15.3284 10.1687 14.5 10.1687C13.6716 10.1687 13 9.49713 13 8.6687C13 8.11642 12.5523 7.6687 12 7.6687C11.4477 7.6687 11 8.11642 11 8.6687C11 9.49713 10.3284 10.1687 9.5 10.1687C8.67157 10.1687 8 9.49713 8 8.6687C8 8.11642 7.55228 7.6687 7 7.6687C6.44772 7.6687 6 8.11642 6 8.6687C6 9.49713 5.32843 10.1687 4.5 10.1687C3.67157 10.1687 3 9.49713 3 8.6687V7.90477L4.61803 4.6687H19.3808L21 7.90491Z">
+                            </path>
+                            <!-- <img src="./assets/images/vendor_pic.png" alt="vendor"> -->
+                        </svg>
+                        <span>ثبت نام فروشندگان</span>
+
+                    </a>
+                </div>
+                <div class="login">
+                    <button dir="rtl" class="sc-fFubgz kgGGTi">
+                        <span color="accent2" style="margin-right:0;margin-left:3px" class="sc-hKgILt kGePTa">ورود یا عضویت</span>
+                    </button>
+                </div>
+            </div>
+            <div class="user">
+                <a><i class="fa-solid fa-user"></i></a>
+            </div>
+        </div>
+        <!-- End Banner Navbar -->
+        <!-- START Banner Image -->
+        <div class="banner-header">
+            <!-- <img alt="pitzza Image" src="assets/images/hero-image.png"> -->
+        </div>
+        <!-- END Banner Image -->
+        <!-- START Order Food -->
+        <div class="order-food justify-content-around align-items-start flex-column col-xl-4 col-lg-4 col-md-4">
+            <div class="changing-food">
+                <h1>سفارش آنلاین</h1>
+                <div class="vertical-wrap ">
+                    <div class="vertical-move">
+                        <div class="vertical-item">میوه</div>
+                        <div class="vertical-item">قهوه</div>
+                        <div class="vertical-item">خوارو‌بار</div>
+                        <div class="vertical-item">نان</div>
+                        <div class="vertical-item">پیتزا</div>
+                        <div class="vertical-item">غذا</div>
+                    </div>
+                </div>
+            </div>
+            <div class="under-order"><span class="family-light">سفارش آنلاین غذا، میوه، نان، شیرینی </span></div>
+
+            <div class="search-address d-inline-block justify-content-center align-items-center">
+                <form action="#">
+                    <input type="text" placeholder="ابتدا آدرستان را انتخاب کنید.">
+                    <svg style="margin-top: -74px; margin-right: 8px;" width="17" height="20" viewBox="0 0 12 14" fill="var(--sf-inactive-light)" xmlns="http://www.w3.org/2000/svg">
+                        <path fill="#CCCCCC" fill-rule="evenodd" clip-rule="evenodd" d="M9.11216 9.2305C10.8115 7.50007 10.8115 4.7073 9.11216 2.97687C7.39661 1.22993 4.60338 1.22993 2.88783 2.97687C1.18849 4.7073 1.18849 7.50007 2.88783 9.2305L5.89303 12.2907C5.91798 12.3161 5.95396 12.3333 5.99999 12.3333C6.04603 12.3333 6.08201 12.3161 6.10696 12.2907L9.11216 9.2305ZM10.0069 10.1839C12.2199 7.93048 12.2199 4.27689 10.0069 2.02343C7.79396 -0.230038 4.20603 -0.230038 1.99306 2.02343C-0.219915 4.27689 -0.219915 7.93048 1.99306 10.1839L4.99826 13.2441C5.5515 13.8075 6.44849 13.8075 7.00173 13.2441L10.0069 10.1839Z" fill="var(--sf-inactive-light)"></path>
+                        <path fill="#CCCCCC" fill-rule="evenodd" clip-rule="evenodd" d="M5.99999 4.89127C5.29867 4.89127 4.77999 5.46244 4.77999 6.10368C4.77999 6.74492 5.29867 7.3161 5.99999 7.3161C6.70132 7.3161 7.22 6.74492 7.22 6.10368C7.22 5.46244 6.70132 4.89127 5.99999 4.89127ZM5.99999 3.55794C4.61928 3.55794 3.49999 4.69771 3.49999 6.10368C3.49999 7.50966 4.61928 8.64943 5.99999 8.64943C7.38071 8.64943 8.5 7.50966 8.5 6.10368C8.5 4.69771 7.38071 3.55794 5.99999 3.55794Z" fill="var(--sf-inactive-light)"></path>
+                    </svg>
+                    <i style="margin-top: -2px; cursor: pointer;" class="fa-solid fa-search"></i>
+                </form>
+            </div> 
+        </div>
+        <!-- End Order Food -->
+
+        
+
+    </section>
+    <!-- End Header Section -->
+
+    <!-- START Order Food Pictures -->
+     <section class="iTOHqT">
+        <div class="dUormP fpKWLm">
+            <div class="relative">
+                <div dir="rtl" class="swiper-container">
+                    <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
+                        <div class="swiper-slide swiper-slide-active" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="رستوران" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/restaurant-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">رستوران</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active super" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="سوپرمارکت" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/supermarket-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">سوپرمارکت</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active coffe" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="کافه"src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/cafe-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">کافه</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active sweet" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="شیرینی" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/confectionary-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">شیرینی</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active nan" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="نانوایی" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/bread-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">نانوایی</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active mive" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="میوه" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/fruit-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">میوه</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active pro" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="پروتئین" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/protein-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">پروتئین</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active ice" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="آبمیوه بستنی" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/icecream-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">آبمیوه بستنی</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active lab" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="لبنیات"src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/dairy-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">لبنیات</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active gol" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img alt="گل و گیاه" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/flower-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">گل و گیاه</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="swiper-slide swiper-slide-active attari" style="width: 106px; margin-left: 12px;">
+                            <a target="_self" href="" class="Anchor-sc-f1anmz-0 text-none">
+                                <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeItemWrapper-sc-hulgtb-0 cGgmyP giZdFc">
+                                    <img class="attari-img" alt="عطاری" src="https://cdn.snappfood.ir/uploads/images/review-app/icons/count/attari-desktop.png" width="102" height="102" />
+                                    <div class="sc-dlfnbm SuperTypeItemstyled__SuperTypeText-sc-hulgtb-1 fBrhOL eFFNpO">
+                                        <span class="sc-hKgILt nnodx">عطاری</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="SuperTypeListstyled__Handle-sc-1vt45x1-2 SuperTypeListstyled__LeftHandle-sc-1vt45x1-4 eCmHnD left navigation">
+                    <button class="mt-15 sc-fFubgz jIYFEm SuperTypeListstyled__ArrowButton-sc-1vt45x1-5 emRNKU" dir="rtl">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="0.5625rem" height="1rem" viewBox="0 0 9 16" fill="var(--sf-accent-main)">
+                            <path d="M8.70539 15.2946C9.09466 14.9053 9.095 14.2743 8.70615 13.8846L2.83 8L8.70615 2.11539C9.095 1.72569 9.09466 1.09466 8.70539 0.705388C8.31581 0.315815 7.68419 0.315815 7.29462 0.705388L0.707108 7.2929C0.316584 7.68342 0.316584 8.31659 0.707108 8.70711L7.29462 15.2946C7.68419 15.6842 8.31581 15.6842 8.70539 15.2946Z"d="M8.70539 15.2946C9.09466 14.9053 9.095 14.2743 8.70615 13.8846L2.83 8L8.70615 2.11539C9.095 1.72569 9.09466 1.09466 8.70539 0.705388C8.31581 0.315815 7.68419 0.315815 7.29462 0.705388L0.707108 7.2929C0.316584 7.68342 0.316584 8.31659 0.707108 8.70711L7.29462 15.2946C7.68419 15.6842 8.31581 15.6842 8.70539 15.2946Z">
+                                
+                            </path>
+                        </svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> 
+    <!-- End Order Food Pictures -->
+
+    <section class="container-fluid food-category d-flex flex-column">
+        <div class="category-title"><span>دسته بندی ها</span></div>
+        <div class="category col-12 d-flex align-items-center justify-content-between justify-content-lg-center flex-wrap">
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="https://cdn.snappfood.ir/uploads/images/tags/website_image_irani_1.jpg" alt="category">
+                <a>
+                    <span>ایرانی</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_fastfood_1.jpg" alt="category">
+                <a>
+                    <span>فست‌فود</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_kebab_1.jpg" alt="category">
+                <a>
+                    <span>کباب</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_pizza_1.jpg" alt="category">
+                <a>
+                    <span>پیتزا</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_burger_1.jpg" alt="category">
+                <a>
+                    <span>برگر</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_sandwich_1.jpg" alt="category">
+                <a>
+                    <span>ساندویچ</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_sokhari_1.jpg" alt="category">
+                <a>
+                    <span>سوخاری</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_italy_1.jpg" alt="category">
+                <a>
+                    <span>پاستا</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_salad_1.jpg" alt="category">
+                <a>
+                    <span>سالاد</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img  src="./assets/images/website_image_seafood_1.jpg" alt="category">
+                <a>
+                    <span>دریایی</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img src="./assets/images/website_image_asian_1.jpg" alt="category">
+                <a>
+                    <span>بین‌الملل</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+            <div class="category-item col-xl-2 col-lg-3 col-md-4 col-sm-6 col-6">
+                <img src="./assets/images/website_image_gilani_1.jpg" alt="category">
+                <a>
+                    <span>گیلانی</span>
+                    <i class="fa-solid fa-chevron-left"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+    <seciton class="download-app d-flex container-fluid row">
+        <div class="app-description d-flex flex-column justify-content-around align-items-start col-xl-7 w-lg-100">
+            <h2>اپلیکیشن اسنپ‌فود</h2>
+            <span>با اپلیکیشن اسنپ‌فود به راحتی و با چند کلیک ساده می‌توانید رستوران‌ها، کافه‌ها، شیرینی‌فروشی‌ها و سوپرمارکت‌های نزدیک خودتان را جست‌و‌جو کرده و از تجربه سفارش آسان از اسنپ‌فود لذت ببرید.</span>
+            
+                <form action="#" class="d-flex flex-column">
+                    <label>برای دریافت لینک دانلود اپلیکیشن، شماره موبایلتان رو وارد کنید</label>
+                    <div class="phone-number">
+                        <input type="text" placeholder="*********۰۹">
+                        <input type="button" value="دریافت لینک" class="custom-btn">
+                 
+                    </div>
+                </form>
+            
+            <div class="app-links">
+                <a class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><img src="./assets/images/googleplay.PNG" alt="app"></a>
+                <a class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><img src="./assets/images/bazzar.PNG" alt="app"></a>
+                <a class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><img src="./assets/images/sibche.PNG" alt="app"></a>
+                <a class="col-xl-3 col-lg-4 col-md-6 col-sm-12"><img src="./assets/images/iapps.PNG" alt="app"></a>
+            </div>
+        </div>
+        <div class="download-image col-xl-5 w-lg-0 d-xl-block d-none">
+            <img src="./assets/images/img_app_mockup@2x.png" alt="app">
+        </div>
+    </seciton>
+
+
+    <section class="container-fluid vendor d-flex justify-content-between">
+
+        <div class="vendor-signup d-flex flex-column justify-content-between align-items-start">
+            <h1>صاحب کسب و کار هستید؟</h1>
+            <h5>با اسنپ فود کسب و کارتان را آنلاین کنید و فروشتان را افزایش دهید.</h5>
+            <button class="custom-btn"> <i class="fa-solid fa-store"></i> <a>ثبت نام فروشندگان</a></button>
+        </div>
+
+        <div class="vendor-image d-xl-block d-none">
+            <img src="./assets/images/vendor_pic.png" alt="vendor" />
+        </div>
+    </section>
+</main>
+
+    <section class="line"></section>
+
+    <section class="container-fluid cities d-flex flex-column w-100 pr-0">
+        <div class="city-title"><h6>اسنپ‌ فود در شهرهای ایران</h6></div>
+        <div class="container-fluid row d-flex justify-content-around align-items-center w-100 city-names">
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تهران</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مشهد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کرج</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اصفهان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شیراز</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تبریز</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قم</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اهواز</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رشت</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ارومیه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>یزد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قزوین</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کرمان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>همدان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اردبیل</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ساری</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>گرگان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کرمانشاه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>زنجان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شهر ری</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اراک</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بوشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اسلامشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بندرعباس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بجنورد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شاهین شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خرم آباد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کاشان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بابل</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>یاسوج</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مرودشت</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>دزفول</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نیشابور</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نجف آباد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بابلسر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سنندج</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>لاهیجان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قائم‌ شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>آبادان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بیرجند</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>آمل</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سبزوار</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>پردیس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>زاهدان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بندر انزلی</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کیش</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ورامین</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تربت حیدریه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ساوه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شهرکرد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سمنان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مراغه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>پاکدشت</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>گنبد کاووس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شاهرود</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شهریار</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خمینی شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>پرند</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شهر قدس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سپاهان شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رباط کریم</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بروجرد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اندیمشک</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اندیشه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ایلام</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>لنگرود</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>هشتگرد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بهارستان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>لواسان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نسیم شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>محمود آباد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>فولادشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نوشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مرند</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قرچک</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>صدرا</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سهند</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سلمان شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رودهن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>فریدونکنار</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قوچان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>دماوند</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بومهن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>چالوس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کازرون</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رامسر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تنکابن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شهرضا</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نور</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بهشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خوی</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سرخ رود</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ملارد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>درود</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>گرمدره</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>داراب</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>زرین شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>لار</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>قشم</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مبارکه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رویان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ملایر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>طرقبه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سیرجان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>مارلیک</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>میاندوآب</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کلارآباد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رفسنجان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>فومن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بروجن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تربت جام</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رودهن</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نکا</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>فسا</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>بم</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>میبد</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ایزدشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>زابل</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>فلاورجان</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>آران بیدگل</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>چابهار</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>باقر شهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خرمشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>کردکوی</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ویلاشهر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سنگر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شیرگاه</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>شوشتر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تفت</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>رودسر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>آبیک</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>نقده</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>صومعه سرا</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>جاجرود</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>ماسال</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خمین</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>تفرش</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>چهارمحال بختیاری</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>طبس</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>خشت سر</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>سراب</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p>اسکو</p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p></p></div>
+            <div class="col-xl-1 col-lg-2 col-md-3 col-sm-4 col-4"><p></p></div>
+        </div>
+    </section>
+
+    <section class="footer container-fluid d-flex row justify-content-xl-between justify-content-md-start">
+        <div class="footer-logo-socials col-xl-4 col-lg-6 col-md-9 col-sm-12 col-12">
+            <div class="logo d-flex">
+                <div><img src="./assets/images/logo.PNG" alt="logo"></div>
+                <div class="px-3">
+                    <h6>اسنپ‌فود</h6>
+                    <span>تجربه سفارش غذا، از زودفود تا اسنپ‌فود</span>
+                </div>
+            </div>
+            <div class="socials d-flex justify-content-center">
+                <div><a><i class="fa-brands fa-twitter"></i></a></div>
+                <div><a><i class="fa-brands fa-telegram"></i></a></div>
+                <div><a><i class="fa-brands fa-linkedin"></i></a></div>
+                <div><a><i class="fa-brands fa-instagram"></i></a></div>
+                <div><a><img src="./assets/images/aparat.PNG" alt="aparat"></a></div>
+            </div>
+        </div>
+
+        <div class="footer-about col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 d-flex justify-content-xl-center justify-content-md-center">
+            <div class="d-flex flex-column col-lg-6 col-md-12 w-50">
+                <a>درباره اسنپ‌فود</a>
+                <a>فرصت های شغلی</a>
+                <a>وبلاگ</a>
+                <a>قوانین سایت</a>
+                <a>حریم خصوصی</a>
+                <a>ثبت نام فروشندگان</a>
+            </div>
+            
+           
+        </div>
+        
+        <div class="footer-about col-xl-3 col-lg-3 col-md-3 col-sm-4 col-6 d-flex justify-content-xl-center justify-content-md-center">
+                
+            <div class="d-flex flex-column col-lg-6 col-md-4 w-50">
+                <a>تماس با اسنپ‌فود</a>
+                <a>پرسش‌های متداول</a>
+                <a>ثبت شکایات</a>
+                <a>اپلیکیشن موبایل</a>
+            </div>
+        </div>    
+        
+        <div class="footer-credentials col-xl-2 col-lg-12 col-md-9 col-sm-4 col-12 d-flex justify-content-end">
+            <div>
+                <img src="./assets/images/e-namad.PNG" alt="cred">
+            </div>
+            <div>
+                <img src="./assets/images/senf.png" alt="cred">
+            </div>
+        </div>
+   
+    </section>
+
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
