@@ -1,4 +1,19 @@
-Responsive "Snappfood" website template built using HTML, CSS, and SCSS(SASS).
+## "Snappfood" website Clone template 
+
+## Domain: https://snappfood-template.vercel.app/
+
+## Features
+
+- **Responsive Design:** Optimized for various devices to ensure a smooth user experience.
+- **Dynamic Content:** Leverage React's state management for real-time updates and interactive elements.
+- **User-Friendly Interface:** Intuitive navigation that enhances user engagement.
+
+
+## Technologies Used
+- **HTML5**
+- **JavaScript**
+- **CSS**
+- **Bootstrap5**
 
 First Image (Laptop Screen Size)
 ![Screenshot (13)](https://github.com/user-attachments/assets/687ab824-8173-4c3c-892c-1bcc531b4b55)
